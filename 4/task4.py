@@ -8,8 +8,19 @@
 # 4 --> 0 (4 уже одна цифра, а значит мы проделали 0 итераций)
 
 def multiplication_chain(num):
-    # Здесь нужно написать код
+    def degits_iter(num):
+        digits = 0
+        count = 0
+        if num >= 10:
+            count = 0
+        while digits >= 10:
+            digits = digits * (num % 10)
+            num = num // 10
+            count = count + 1
+        return count
+    count_multy = degits_iter(num)
     return count_multy
+print(multiplication_chain(25))
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 

@@ -7,7 +7,15 @@
 # 4 --> 4
 
 def sum_digits(num):
-    # Здесь нужно написать код
+    def degits_iter(num):
+        digits = []
+        while num:
+            digits = digits + [num % 10]
+            num = num // 10
+        return digits[::-1] or [0]
+    print(degits_iter(num))
+    our_sum = sum(degits_iter(num))
+    print(our_sum)
     return our_sum
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ

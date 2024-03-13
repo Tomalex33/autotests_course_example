@@ -6,11 +6,14 @@
 
 
 def flatten_and_sort(array):
-    # Здесь нужно написать код
+    result_list = []
+    for let in array:
+        for num in let:
+            result_list.append(num)
+            result_list.sort()
     return result_list
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
-
 
 data = [
     [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]],
