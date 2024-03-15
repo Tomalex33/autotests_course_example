@@ -1,3 +1,4 @@
+import math
 # my_list = []
 # for i in range(1, 6):
 #     if i % 2 == 0:
@@ -66,16 +67,6 @@
 #     num = num + 1
 #     print(num)
 
-# num = 10
-# digits = 1
-# count_multy = 0
-# while count_multy < 20:
-#     if num <= 9:
-#         print(count_multy)
-#     elif num >= 10:
-#         count_multy = count_multy + 1
-#         print(count_multy)
-
 # while num:
 #     digits = digits * (num % 10)
 #     num = num // 10
@@ -83,13 +74,69 @@
 # print(digits)
 # print(count_multy)
 
-num = 10
-count = 0
+# num = 996
+# count = 0
+# digits = 1
+# if num < 10:
+#     print(count)
+# else:
+#     while digits < 10:
+#         digits = digits * (num % 10)
+#         num = num // 10
+#         print(digits)
+#         print(num)
+
+# def degits_iter(num):
+#     digits = []
+#     while num:
+#         digits = digits + [num % 10]
+#         num = num // 10
+#     return digits[::-1] or [0]
+# prod = [9, 9, 6]
+# print(math.degits_iter(996))
+# print(math.prod([9, 9, 6]))
+
+# num = 996
+# while mylty >= 10:
+#     mylty = eval(str(degits_iter(num))[1:-1].replace(',', '*'))
+#     print(mylty)
+#     def degits_iter(num):
+#      digits = []
+#      while num:
+#         digits = digits + [num % 10]
+#         num = num // 10
+#         return digits[::-1] or [0]
+#     print(degits_iter(num))
+#
+# print(mylty)
+
+# num = 39
+# count = 0
+# def degits_iter(num):
+#     digits = []
+#     while num:
+#         digits = digits + [num % 10]
+#         num = num // 10
+#     return digits[::-1] or [0]
+#
+# if num < 10:
+#    print('1 итерация')
+# else:
+#     print('Итераций больше, нужно посчитать')
+#     sum_mylty = eval(str(degits_iter(num))[1:-1].replace(',', '*'))
+#     print(sum_mylty) ## 27
+#     new_number = degits_iter(sum_mylty)
+#     print(degits_iter(sum_mylty)) ## [2, 7]
+#     sum_mylty = eval(str(degits_iter(new_number))[1:-1].replace(',', '*'))
+#     print(sum_mylty)
+
+
+num = 155
 digits = 1
-if num < 10:
-    print(count)
-else:
-    while num:
-        digits = digits * (num % 10)
-        num = num // 10
-        print(digits)
+count = 0
+while digits:
+    digits = digits * (num % 10)
+    print(digits)
+    num = num // 10
+    print(num)
+    count = count + 1
