@@ -140,3 +140,4 @@ while digits:
     num = num // 10
     print(num)
     count = count + 1
+print(count)
