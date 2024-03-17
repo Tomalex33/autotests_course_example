@@ -141,4 +141,4 @@ while digits:
     print(num)
     count = count + 1
 print(count)
-print(num)
+
