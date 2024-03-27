@@ -13,9 +13,32 @@
 # [1,4,5] => 7 вышел
 # [1,4] => 5 вышел
 # [4] => 1 вышел, 4 остался последним т.е. выжившим - это наш ответ survivor.
-
+def do_list(num_people):
+    L = []
+    while num_people > 0:
+        L.append(num_people)
+        L.sort()
+        num_people = num_people - 1
+    return L
 def josephus_task(num_people, kill_num):
-    # Здесь нужно написать код
+    s = do_list(num_people)
+    ind = kill_num - 1
+    while len(s) > 1:
+        if ind < len(s) - 1 and ind != 0:
+            s.pop(ind)
+            ind = ind + 2
+            print(ind, 'ind первое условие')
+        elif ind == 0:
+            ind = -1
+            s.pop(ind)
+            print(ind, 'ind второе условие')
+        else:
+            print('попал в else')
+            ind = (ind - len(s)) - 1
+            s.pop(ind)
+            print(ind, 'ind третье условие')
+        print(s, 'это s')
+    survivor = s.pop(0)
     return survivor
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
