@@ -19,7 +19,6 @@ def josephus_task(num_people, kill_num):
         L.append(num_people)
         L.sort()
         num_people = num_people - 1
-    print(L)
     while len(L) > 1:
         for q in range(0, kill_num - 1):
             L.append(L[q])
