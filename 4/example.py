@@ -141,3 +141,22 @@ import math
 #     print(num)
 #     count = count + 1
 # print(count)
+
+# "(123) 456-7890"
+# a = (1, 2, 3, 4, 5, 6, 7, 8, 9, 0)
+# print(f'({a[0]}'+f'{a[1]}'+f'{a[2]}) '+f'{a[3]}'+f'{a[4]}'+f'{a[5]}-'+f'{a[6]}'+f'{a[7]}'+f'{a[8]}'+f'{a[9]}')
+
+# L = [1, 0, 1, 2, 0, 1, 3]
+# R = []
+# Res = []
+# for num in L:
+#     if num == 0:
+#         print(num, 'Первый случай')
+#         R.append(num)
+#     else:
+#         print(num, 'Второй случай')
+#         Res.append(num)
+# print(R)
+# print(Res)
+# print(Res+R)
+

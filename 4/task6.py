@@ -4,7 +4,7 @@
 # (1, 2, 3, 4, 5, 6, 7, 8, 9, 0)  => "(123) 456-7890"
 
 def create_phone_number(num_tuple):
-    # Здесь нужно написать код
+    str_phone = f'({num_tuple[0]}'+f'{num_tuple[1]}'+f'{num_tuple[2]}) '+f'{num_tuple[3]}'+f'{num_tuple[4]}'+f'{num_tuple[5]}-'+f'{num_tuple[6]}'+f'{num_tuple[7]}'+f'{num_tuple[8]}'+f'{num_tuple[9]}'
     return str_phone
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ

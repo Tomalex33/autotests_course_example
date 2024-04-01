@@ -8,7 +8,9 @@
 def flatten_and_sort(array):
     result_list = []
     for let in array:
+        print(let)
         for num in let:
+            print(num)
             result_list.append(num)
             result_list.sort()
     return result_list
