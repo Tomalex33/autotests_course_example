@@ -7,8 +7,13 @@
 
 
 def letter_stat(our_str):
-    # Здесь нужно написать код
-    return letters_dict
+    letter_dict = {}
+    for i in our_str:
+        if i in letter_dict:
+            letter_dict[i] = letter_dict.get(i) + 1
+        else:
+            letter_dict[i] = 1
+    return letter_dict
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 

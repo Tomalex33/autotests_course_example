@@ -160,3 +160,13 @@ import math
 # print(Res)
 # print(Res+R)
 
+S = 'letter'
+letter_dict = {}
+for i in S:
+    if i not in letter_dict:
+        letter_dict[i] = 1
+        print(letter_dict)
+    else:
+        letter_dict[i] = letter_dict.get(i) + 1
+        print(letter_dict)
+print(letter_dict)
