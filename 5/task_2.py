@@ -7,9 +7,17 @@
 
 
 def repeats(our_str):
-    # Здесь нужно написать код
+    new_str = {}
+    str_new = ''
+    for i in our_str:
+        if i not in new_str:
+            new_str[i] = new_str.get(i, 0) + 1
+            str_new = str_new + f'{i}' + '_' + f'{new_str[i]}'
+        else:
+            new_str[i] = new_str.get(i, 1) + 1
+            str_new = str_new + f'{i}' + '_' + f'{new_str[i]}'
+    new_str = str_new
     return new_str
-
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 

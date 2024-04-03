@@ -160,13 +160,41 @@ import math
 # print(Res)
 # print(Res+R)
 
-S = 'letter'
-letter_dict = {}
-for i in S:
-    if i not in letter_dict:
-        letter_dict[i] = 1
-        print(letter_dict)
-    else:
-        letter_dict[i] = letter_dict.get(i) + 1
-        print(letter_dict)
-print(letter_dict)
+# S = 'letter'
+# letter_dict = {}
+# for i in S:
+#     if i not in letter_dict:
+#         letter_dict[i] = 1
+#         print(letter_dict)
+#     else:
+#         letter_dict[i] = letter_dict.get(i) + 1
+#         print(letter_dict)
+# print(letter_dict)
+
+# our_str = 'околоводопроводного'
+# new_str = {}
+# if our_str == '':
+#     print('')
+#     for i in our_str:
+#         if i in new_str:
+#             new_str[i] = new_str.get(i, 1) + 1
+#             print(f'{i}_{new_str[i]}', end='')
+#         else:
+#             print(f'{i}_1', end='')
+#             new_str[i] = new_str.get(i, 0) + 1
+#         print(new_str)
+
+# 'letter' --> l_1e_1t_1t_2e_2_r_1
+
+# our_str = 'околоводопроводного'
+# new_str = {}
+# str_new = ''
+# for i in our_str:
+#     if i not in new_str:
+#         new_str[i] = new_str.get(i, 0) + 1
+#         str_new = str_new + f'{i}' + '_' + f'{new_str[i]}'
+#     else:
+#         new_str[i] = new_str.get(i, 1) + 1
+#         str_new = str_new + f'{i}' + '_' + f'{new_str[i]}'
+# print(str_new)
+# new_str = str_new
