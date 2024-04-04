@@ -198,3 +198,17 @@ import math
 #         str_new = str_new + f'{i}' + '_' + f'{new_str[i]}'
 # print(str_new)
 # new_str = str_new
+
+cats_data = [('Мартин', 5, 'Алексей', 'Егоров'),
+         ('Фродо', 3, 'Анна', 'Самохина'),
+         ('Вася', 4, 'Алексей', 'Егоров')]
+result = {}
+for cat in cats_data:
+    temp = (cat[0]) + ', ' + str(cat[1])
+    result.setdefault(cat[2:], []).append(temp)
+our_str = ''
+for k, v in result.items():
+    our_cor = ' '.join(k) + ':', '; '.join(v)
+    res = our_cor[0] + ' ' + our_cor[1]
+    our_str = our_str + f'{res}' + '\n'
+print(our_str)
