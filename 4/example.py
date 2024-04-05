@@ -199,16 +199,30 @@ import math
 # print(str_new)
 # new_str = str_new
 
-cats_data = [('Мартин', 5, 'Алексей', 'Егоров'),
-         ('Фродо', 3, 'Анна', 'Самохина'),
-         ('Вася', 4, 'Алексей', 'Егоров')]
-result = {}
-for cat in cats_data:
-    temp = (cat[0]) + ', ' + str(cat[1])
-    result.setdefault(cat[2:], []).append(temp)
-our_str = ''
-for k, v in result.items():
-    our_cor = ' '.join(k) + ':', '; '.join(v)
-    res = our_cor[0] + ' ' + our_cor[1]
-    our_str = our_str + f'{res}' + '\n'
-print(our_str)
+# cats_data = [('Мартин', 5, 'Алексей', 'Егоров'),
+#          ('Фродо', 3, 'Анна', 'Самохина'),
+#          ('Вася', 4, 'Алексей', 'Егоров')]
+# result = {}
+# for cat in cats_data:
+#     temp = (cat[0]) + ', ' + str(cat[1])
+#     result.setdefault(cat[2:], []).append(temp)
+# our_str = ''
+# for k, v in result.items():
+#     our_cor = ' '.join(k) + ':', '; '.join(v)
+#     res = our_cor[0] + ' ' + our_cor[1]
+#     our_str = our_str + f'{res}' + '\n'
+# print(our_str)
+
+word = 'курсс'
+total = 0
+alf_num = {'а': 1, 'в': 1, 'е': 1, 'ё': 1, 'и': 1, 'н': 1, 'о': 1, 'р': 1, 'с': 1, 'т': 1, 'д': 2, 'к': 2,
+           'л': 2, 'м': 2, 'п': 2, 'у': 2, 'б': 3, 'г': 3, 'ь': 3, 'я': 3, 'й': 4, 'ы': 4, 'ж': 5, 'з': 5,
+           'х': 5, 'ц': 5, 'ч': 5, 'ф': 8, 'ш': 8, 'э': 8, 'ю': 8, 'щ': 10, 'ъ': 15}
+print(alf_num.get('k'))
+for y in word:
+    print(y)
+    if y in alf_num:
+        print('попал')
+        total = total + alf_num[y]
+    print(total)
+
