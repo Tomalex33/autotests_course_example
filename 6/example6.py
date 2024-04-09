@@ -26,3 +26,18 @@
 # global_function()
 # print(global_function(), 'конечный результат')
 
+import math
+class Segment:
+    def __init__(self, x1, y1, x2, y2):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+    def length(self):
+        print(math.sqrt((self.x2-self.x1)**2+(self.y2-self.y1)**2))
+koor = Segment(1, 2,3,4)
+s = (koor.x1, koor.y1)
+leng = Segment.length()
+
+print(s)
+print(leng)

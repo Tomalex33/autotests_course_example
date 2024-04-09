@@ -9,7 +9,9 @@
 # Segment((-2, -3), (4, 5)).x_axis_intersection() --> True
 # Segment((-2, -3), (-4, -5)).y_axis_intersection() --> False
 
-# Здесь пишем код
+class Segment:
+    def __init__(self):
+        sel
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
