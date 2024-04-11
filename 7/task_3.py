@@ -45,13 +45,11 @@ class Bus(PublicTransport):
 
     @property
     def park(self):
-        assert self.__park <= 9999 and self.__==park >= 1000
         return self.__park
     @park.setter
     def park(self, park):
-        assert self.__park <= 9999 and self.__park >= 1000
+        assert park <= 9999 and park >= 1000
         self.__park = park
-
 class Tram(PublicTransport):
     def __init__(self, brand, engine_power, year, color, max_speed, route, path, fare):
         super().__init__(brand, engine_power, year, color, max_speed)

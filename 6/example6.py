@@ -123,11 +123,10 @@ class Bus(PublicTransport):
 
     @property
     def park(self):
-        assert self.__park <= 9999 and self.__park >= 1000
         return self.__park
-
     @park.setter
     def park(self, park):
+        assert park <= 9999 and park >= 1000
         self.__park = park
 
 
@@ -143,7 +142,9 @@ class Tram(PublicTransport):
         return self.max_speed/(4*self.path)
 
 car = PublicTransport('audi', 333, 2012, 'red', 350)
-bus = Bus('audi', 250, 2000, 'blue', 100, 20, 9999, 30)
+bus = Bus('audi', 250, 2000, 'blue', 100, 20, 1000, 30)
+bus.park = 999
+
 trum = Tram('audi', 333, 2012, 'red', 350, 1233, 50, 50)
 
 # print(car.brand)
