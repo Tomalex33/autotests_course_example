@@ -23,7 +23,45 @@
 #   3. ЗАЩИЩЕННЫЙ (protected) атрибут fare - Стоимость проезда
 # У класса должно быть СВОЙСТВО how_long, которое вычисляет время прохождения маршрута по формуле max_speed/(4*path)
 
-# Здесь пишем код
+class PublicTransport:
+    def __init__(self, brand, engine_power, year, color, max_speed):
+        self.brand = brand
+        self._engine_power = engine_power
+        self.year = year
+        self.color = color
+        self.max_speed = max_speed
+    @property
+    def info(self):
+        # s = f'{self.brand} ' + f'{self.color} ' + f'{self.year} ' + f'{self._engine_power}'
+        # s = self.brand, self.color, self.year, self._engine_power
+        # return s
+        print(f'{self.brand}\n{self.color}\n{self.year}\n{self._engine_power}')
+class Bus(PublicTransport):
+    def __init__(self, brand, engine_power, year, color, max_speed, passengers, park, fare):
+        super().__init__(brand, engine_power, year, color, max_speed)
+        self.passengers = passengers
+        self.__park = park
+        self._fare = fare
+
+    @property
+    def park(self):
+        assert self.__park <= 9999 and self.__==park >= 1000
+        return self.__park
+    @park.setter
+    def park(self, park):
+        assert self.__park <= 9999 and self.__park >= 1000
+        self.__park = park
+
+class Tram(PublicTransport):
+    def __init__(self, brand, engine_power, year, color, max_speed, route, path, fare):
+        super().__init__(brand, engine_power, year, color, max_speed)
+        self.__route = route
+        self.path = path
+        self._fare = fare
+
+    @property
+    def how_long(self):
+        return self.max_speed/(4*self.path)
 
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ

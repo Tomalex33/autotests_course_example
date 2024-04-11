@@ -60,61 +60,95 @@
 # y_axis = Segment.y_axis_intersection(koor)
 # print(y_axis)
 
-class PersonInfo:
-    def __init__(self, name, num, *subdivision):
-        self.name = name
-        self.num = num
-        self.subdivision = subdivision
+# class PersonInfo:
+#     def __init__(self, name, num, *subdivision):
+#         self.name = name
+#         self.num = num
+#         self.subdivision = subdivision
+#
+#     def short_name(self):
+#         return (f'{self.name.split()[1]}' + ' ' + self.name[0] + '.')
+#
+#     def path_deps(self):
+#         words = ''
+#         counter = 0
+#         for i in self.subdivision:
+#             words = words + f'{self.subdivision[counter]} ' + '--> '
+#             counter = counter + 1
+#         return words[:-5]
+#
+#     def new_salary(self):
+#         s = self.subdivision
+#         list_dict = {}
+#         for i in s:
+#             print(i)
+#             for sym in i:
+#                 if sym in list_dict:
+#                     list_dict[sym] = list_dict.get(sym) + 1
+#                 else:
+#                     print(sym)
+#                     list_dict[sym] = 1
+#         print(list_dict)
+#         s = list_dict.values()
+#         sorted_num = sorted(list_dict.values())
+#         sorted_tree = sorted_num[:-4:-1]
+#         print(sorted_tree)
+#         summ = sorted_tree[0] + sorted_tree[1] + sorted_tree[2]
+#         return 1337 * self.num * summ
 
-    def short_name(self):
-        return (f'{self.name.split()[1]}' + ' ' + self.name[0] + '.')
+# Persona1 = PersonInfo('Александр Шленский', 32, 'Разработка', 'УК', 'Автотесты')
+# print(Persona1.short_name())
+# print(Persona1.path_deps())
+# print(Persona1.new_salary())
 
-    def path_deps(self):
-        words = ''
-        counter = 0
-        for i in self.subdivision:
-            words = words + f'{self.subdivision[counter]} ' + '--> '
-            counter = counter + 1
-        return words[:-5]
+class PublicTransport:
+    def __init__(self, brand, engine_power, year, color, max_speed):
+        self.brand = brand
+        self._engine_power = engine_power
+        self.year = year
+        self.color = color
+        self.max_speed = max_speed
+    @property
+    def info(self):
+        # s = f'{self.brand} ' + f'{self.color} ' + f'{self.year} ' + f'{self._engine_power}'
+        # s = self.brand, self.color, self.year, self._engine_power
+        # return s
+        print(f'{self.brand}\n{self.color}\n{self.year}\n{self._engine_power}')
+class Bus(PublicTransport):
+    def __init__(self, brand, engine_power, year, color, max_speed, passengers, park, fare):
+        super().__init__(brand, engine_power, year, color, max_speed)
+        self.passengers = passengers
+        self.__park = park
+        self._fare = fare
 
-    def new_salary(self):
-        s = self.subdivision
-        list_dict = {}
-        for i in s:
-            print(i)
-            for sym in i:
-                if sym in list_dict:
-                    list_dict[sym] = list_dict.get(sym) + 1
-                else:
-                    print(sym)
-                    list_dict[sym] = 1
-        print(list_dict)
-        s = list_dict.values()
-        sorted_num = sorted(list_dict.values())
-        sorted_tree = sorted_num[:-4:-1]
-        print(sorted_tree)
-        summ = sorted_tree[0] + sorted_tree[1] + sorted_tree[2]
-        return 1337 * self.num * summ
+    @property
+    def park(self):
+        assert self.__park <= 9999 and self.__park >= 1000
+        return self.__park
 
-Persona1 = PersonInfo('Александр Шленский', 32, 'Разработка', 'УК', 'Автотесты')
-print(Persona1.short_name())
-print(Persona1.path_deps())
-print(Persona1.new_salary())
+    @park.setter
+    def park(self, park):
+        self.__park = park
 
-# s = ('Developer', 'das', 'dsadasd', '111111')
-# list_dict = {}
-# for i in s:
-#     print(i)
-#     for sym in i:
-#         if sym in list_dict:
-#             list_dict[sym] = list_dict.get(sym) + 1
-#         else:
-#             print(sym)
-#             list_dict[sym] = 1
-# print(list_dict)
-# s = list_dict.values()
-# sorted_num = sorted(list_dict.values())
-# sorted_tree = sorted_num[:-4:-1]
-# print(sorted_tree)
-# summ = sorted_tree[0] + sorted_tree[1] + sorted_tree[2]
 
+class Tram(PublicTransport):
+    def __init__(self, brand, engine_power, year, color, max_speed, route, path, fare):
+        super().__init__(brand, engine_power, year, color, max_speed)
+        self.__route = route
+        self.path = path
+        self._fare = fare
+
+    @property
+    def how_long(self):
+        return self.max_speed/(4*self.path)
+
+car = PublicTransport('audi', 333, 2012, 'red', 350)
+bus = Bus('audi', 250, 2000, 'blue', 100, 20, 9999, 30)
+trum = Tram('audi', 333, 2012, 'red', 350, 1233, 50, 50)
+
+# print(car.brand)
+# car.info
+# print(bus.max_speed)
+# print(car.max_speed)
+print(bus.park)
+print(trum.how_long)
