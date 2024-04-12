@@ -101,55 +101,74 @@
 # print(Persona1.path_deps())
 # print(Persona1.new_salary())
 
-class PublicTransport:
-    def __init__(self, brand, engine_power, year, color, max_speed):
-        self.brand = brand
-        self._engine_power = engine_power
-        self.year = year
-        self.color = color
-        self.max_speed = max_speed
-    @property
-    def info(self):
-        # s = f'{self.brand} ' + f'{self.color} ' + f'{self.year} ' + f'{self._engine_power}'
-        # s = self.brand, self.color, self.year, self._engine_power
-        # return s
-        print(f'{self.brand}\n{self.color}\n{self.year}\n{self._engine_power}')
-class Bus(PublicTransport):
-    def __init__(self, brand, engine_power, year, color, max_speed, passengers, park, fare):
-        super().__init__(brand, engine_power, year, color, max_speed)
-        self.passengers = passengers
-        self.__park = park
-        self._fare = fare
+# class PublicTransport:
+#     def __init__(self, brand, engine_power, year, color, max_speed):
+#         self.brand = brand
+#         self._engine_power = engine_power
+#         self.year = year
+#         self.color = color
+#         self.max_speed = max_speed
+#     @property
+#     def info(self):
+#         # s = f'{self.brand} ' + f'{self.color} ' + f'{self.year} ' + f'{self._engine_power}'
+#         # s = self.brand, self.color, self.year, self._engine_power
+#         # return s
+#         print(f'{self.brand}\n{self.color}\n{self.year}\n{self._engine_power}')
+# class Bus(PublicTransport):
+#     def __init__(self, brand, engine_power, year, color, max_speed, passengers, park, fare):
+#         super().__init__(brand, engine_power, year, color, max_speed)
+#         self.passengers = passengers
+#         self.__park = park
+#         self._fare = fare
+#
+#     @property
+#     def park(self):
+#         return self.__park
+#     @park.setter
+#     def park(self, park):
+#         assert park <= 9999 and park >= 1000
+#         self.__park = park
+#
+#
+# class Tram(PublicTransport):
+#     def __init__(self, brand, engine_power, year, color, max_speed, route, path, fare):
+#         super().__init__(brand, engine_power, year, color, max_speed)
+#         self.__route = route
+#         self.path = path
+#         self._fare = fare
+#
+#     @property
+#     def how_long(self):
+#         return self.max_speed/(4*self.path)
+#
+# car = PublicTransport('audi', 333, 2012, 'red', 350)
+# bus = Bus('audi', 250, 2000, 'blue', 100, 20, 1000, 30)
+# bus.park = 999
+#
+# trum = Tram('audi', 333, 2012, 'red', 350, 1233, 50, 50)
+#
+# # print(car.brand)
+# # car.info
+# # print(bus.max_speed)
+# # print(car.max_speed)
+# print(bus.park)
+# print(trum.how_long)
 
-    @property
-    def park(self):
-        return self.__park
-    @park.setter
-    def park(self, park):
-        assert park <= 9999 and park >= 1000
-        self.__park = park
+# our_tuple = (1, 3, 2)
+# def treatment_sum(our_tuple):
+#     try:
+#         if len(our_tuple) <= 1:
+#             print(our_tuple[3])
+#         elif len(our_tuple) >= 3:
+#             raise Exception('Много данных')
+#         else:
+#             result = our_tuple[0] + our_tuple[1]
+#             return result
+#     except TypeError:
+#         return 'Нельзя сложить эти данные'
+#     except IndexError:
+#         return 'Недостаточно данных'
+#
+# s = treatment_sum(our_tuple)
+# print(s)
 
-
-class Tram(PublicTransport):
-    def __init__(self, brand, engine_power, year, color, max_speed, route, path, fare):
-        super().__init__(brand, engine_power, year, color, max_speed)
-        self.__route = route
-        self.path = path
-        self._fare = fare
-
-    @property
-    def how_long(self):
-        return self.max_speed/(4*self.path)
-
-car = PublicTransport('audi', 333, 2012, 'red', 350)
-bus = Bus('audi', 250, 2000, 'blue', 100, 20, 1000, 30)
-bus.park = 999
-
-trum = Tram('audi', 333, 2012, 'red', 350, 1233, 50, 50)
-
-# print(car.brand)
-# car.info
-# print(bus.max_speed)
-# print(car.max_speed)
-print(bus.park)
-print(trum.how_long)
