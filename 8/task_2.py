@@ -15,8 +15,54 @@
 
 import unittest  # Не удалять
 
+class Trigon:
+    def __init__(self, *args):
+        self.args = args
 
-# Здесь пишем код
+    def date_type(self):
+        try:
+            for i in self.args:
+                if type(i) != int:
+                    7 + 'd'  # если данные не int создаем исключение
+        except TypeError:
+            return 'Стороны должны быть числами'
+        else:
+            return 'Все данные int'
+
+    def date_value(self):
+        try:
+            for i in self.args:
+                if i <= 0:
+                    (int('Data'))
+        except ValueError:
+            return 'Стороны должны быть положительными'
+        else:
+            return 'Все cтороны положительные'
+
+    def trigon_true(self):
+        try:
+            if self.args[0] >= self.args[1] + self.args[2]:
+                6/0
+            elif self.args[1] >= self.args[2] + self.args[0]:
+                6/0
+            elif self.args[2] >= self.args[1] + self.args[0]:
+                6/0
+        except Exception:
+            return "Не треугольник"
+        else:
+            return 'Треугольник можно построить с переданными значениями'
+
+    def trigon_arg(self):
+        n = 0
+        for i in self.args:
+            n = n + 1
+        try:
+            if n != 3:
+                print(self.args[-55551])
+        except IndexError:
+            return f'Передано {n} аргументов, а ожидается 3'
+        else:
+            return "Всё хорошо, передано правильное количество сторон для треугольника"
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 

@@ -7,7 +7,28 @@
 # Если исключения не произошло, то функция возвращает сумму всех координат
 
 
-# Здесь пишем код
+def segment(*args):
+    list_app = []
+    try:
+        for i in args:
+            for n in i:
+                if type(n) == int:
+                    print('ок')
+                    list_app.append(n)
+                else:
+                    7 + '1'
+                    s = "unsupported operand type(s) for +: int and str"
+                    raise Exception(s[::-1])
+    except TypeError:
+        s = "unsupported operand type(s) for +: int and str"
+
+        return s[::-1]
+    else:
+        sum = 0
+        for i in list_app:
+            sum = sum + i
+        return sum
+
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
