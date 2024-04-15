@@ -228,39 +228,28 @@
 # print(trey.trigon_true())
 # print(trey.trigon_arg())
 
-def segment(*args):
-    list_app = []
-    try:
-        for i in args:
-            for n in i:
-                if type(n) == int:
-                    list_app.append(n)
-                else:
-                    7 + '1'
-    except Exception:
-        s = "unsupported operand type(s) for +: int and str"
-        return s[::-1]
-    else:
-        sum = 0
-        for i in list_app:
-            sum = sum + i
-        return sum
-
-print(segment((2, 1), ('4', 5)))
-
-
-
-# s = [1, 2, 3, 4]
-# sum = 0
-# for i in s:
-#     sum = sum + i
-# print(sum)
-# s.append(5)
-# print(s)
-
-# s = (1, 2)
-# list_s = []
-# for i in s:
-#     print(i)
-#     list_s.append(i)
-# print(list_s)
+# def segment(*args):
+#     list_app = []
+#     try:
+#         for i in args:
+#             for n in i:
+#                 if type(n) == int:
+#                     list_app.append(n)
+#                 elif type(n) == str:
+#                     n = int(n)
+#                     7 + 'c'
+#                 else:
+#                     7 + 'c'
+#     except TypeError:
+#         s = "unsupported operand type(s) for +: 'int' and 'str'"
+#         return s[::-1]
+#     except ValueError:
+#         s = 'can only concatenate str (not "int") to str'
+#         return s[::-1]
+#     else:
+#         sum = 0
+#         for i in list_app:
+#             sum = sum + i
+#         return sum
+#
+# print(segment(('1', 3), (4, 5)))
