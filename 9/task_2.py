@@ -32,5 +32,16 @@
 
 
 import datetime
+import time
+def func_log(func):
+    def wrapper(*args):
+        func(*args)
+        b = print(f"{func.__name__} вызвана {time.strftime('%d.%m %H:%M:%S')}")
+        return b
+    return wrapper
 
-# Здесь пишем код
+@func_log
+def my_func1(file_log='log.txt'):
+    print(f'в {file_log} текст:')
+
+my_func1('func2.txt')
