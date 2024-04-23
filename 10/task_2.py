@@ -15,3 +15,23 @@ def all_division(*arg1):
     for i in arg1[1:]:
         division /= i
     return division
+
+s = all_division(20, 2)
+print(s)
+
+
+@pytest.mark.parametrize('a, b, res', [(2, 2, 1), (4, 2, 2), (2, 0, 0)], ids=['positive ', 'positive ', 'negative '])
+@pytest.mark.smoke
+def test_del_0(a, b, res):
+    assert all_division(a, b) == res, "Деление на ноль"
+    print("ошибка")
+
+@pytest.mark.smoke
+def test_positiv():
+    assert all_division(200, 2) == 100.0
+
+def test_del_1():
+    assert all_division(200, -1) == -200
+
+def test_bigpositiv():
+    assert all_division(200000, 25) == 8000
