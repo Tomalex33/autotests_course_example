@@ -4,7 +4,7 @@
 # Убедиться, что сообщение появилось в реестре
 # Удалить это сообщение и убедиться, что удалили
 # Для сдачи задания пришлите код и запись с экрана прохождения теста
-
+import atf.ui import *
 from selenium import webdriver
 from time import sleep
 from selenium.webdriver.common.by import By
@@ -16,6 +16,7 @@ contacts_url = 'https://fix-online.sbis.ru/page/dialogs'
 driver = webdriver.Chrome()
 sleep(1)
 
+class Test(TestCaseUI):
 try:
     driver.maximize_window()
     driver.get(sbis_site)
