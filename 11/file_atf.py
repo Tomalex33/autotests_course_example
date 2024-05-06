@@ -5,12 +5,21 @@ from time import sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver import Keys
 
-sbis_site = 'https://test.sbis.ru/'
+sbis_site = 'https://fix.sbis.ru/'
 sbis_title = 'СБИС — экосистема для бизнеса: учет, управление и коммуникации'
 
 class MainSbisRu(Region):
     tabs = CustomList(By.CSS_SELECTOR, '.sbisru-Header__menu-item', 'Вкладки')
     start_work = Button(By.CSS_SELECTOR, '.sbisru-Button--xs', 'Кнопка')
+
+class AuthOnline(Region):
+    login_inp = TextField(By.CSS_SELECTOR, '.controls-Field.js-controls-Field.controls-InputBase__nativeField.controls-InputBase__nativeField_caretFilled.controls-InputBase__nativeField_caretFilled_theme_default', 'логин')
+    password_inp = TextField(By.CSS_SELECTOR, '.controls-Password__nativeField_caretFilled_theme_default', 'пароль')
+
+class MainOnline(Region):
+    new_title = CustomList(By.CSS_SELECTOR, '.controls-BaseControl.controls_list_theme-default.controls_toggle_theme-default.feed-List', 'Заголовки новостей')
+    popup_menu = Element(By.CSS_SELECTOR, '[templatename="Controls/menu:Popup"]', 'Меню')
+
 class Test(TestCaseUI):
 
     def test(self):
@@ -23,28 +32,28 @@ class Test(TestCaseUI):
         sbis_ru.tabs.should_be(CountElements(4))
 
         log('Проверить текст, атрибут и видимость кнопки Начать работу')
-        buttons_txt = 'Начать работу'
-        sbis_ru.start_work.should_be(ExactText(buttons_txt), Attribute(title=buttons_txt)).click()
+        button_txt = 'Начать работу'
+        sbis_ru.start_work.should_be(ExactText(button_txt), Attribute(title=button_txt))
 
         log('Перейти на страницу авторизации')
         self.browser.switch_to_new_window(sbis_ru.start_work.click)
-        sbis_ru.start_work.click()
 
-        driver.switch_to.window(driver.window_handles[1])
-        sleep(3)
-        login = driver.find_element(By.CSS_SELECTOR, '.controls-Field.js-controls-Field.controls-InputBase__nativeField.controls-InputBase__nativeField_caretFilled.controls-InputBase__nativeField_caretFilled_theme_default')
-        login.send_keys('тест', Keys.ENTER)
-        sleep(2)
-        # assert login.get_attribute('value') == 'my_login'
-        password = driver.find_element(By.CSS_SELECTOR, '.controls-Password__nativeField_caretFilled_theme_default')
-        password.send_keys('тест123', Keys.ENTER)
-        sleep(4)
-        news = driver.find_elements(By.CSS_SELECTOR, '[data-qa="list"]')
-        action_chains = ActionChains(driver)
-        action_chains.move_to_element(news[1])
-        action_chains.context_click(news[1])
-        action_chains.perform()
-        sleep(3)
-        context_menu = driver.find_element(By.CSS_SELECTOR, '[templatename="Controls/menu:Popup"]')
-        context_menu.is_displayed()
-        sleep(4)
+        log('Проверить адрес сайта и заголовок страницы')
+        self.browser.should_be(UrlContains('fix-online.sbis.ru'), TitleExact('Вход в личный кабинет'))
+
+        log('Авторизация')
+        user_login, user_password = 'пчелкин', 'пчелкин123'
+        auth = AuthOnline(self.driver)
+        auth.login_inp.type_in(user_login+Keys.ENTER).should_be(ExactText(user_login))
+        auth.password_inp.type_in(user_password+Keys.ENTER).should_be(Not(Visible))
+
+        log('Навести курсор на новость и сделать контекстный клик')
+        main_online = MainOnline(self.driver)
+        main_online.new_title.item(3).scroll_into_view().context_click()
+
+
+        log('Проверить отображение контекстного меню')
+        main_online.popup_menu.should_be(Visible)
+
+
+
