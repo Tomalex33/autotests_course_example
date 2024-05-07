@@ -17,7 +17,7 @@ class AuthOnline(Region):
     password_inp = TextField(By.CSS_SELECTOR, '.controls-Password__nativeField_caretFilled_theme_default', 'пароль')
 
 class MainOnline(Region):
-    new_title = CustomList(By.CSS_SELECTOR, '.controls-BaseControl.controls_list_theme-default.controls_toggle_theme-default.feed-List', 'Заголовки новостей')
+    new_title = CustomList(By.CSS_SELECTOR, '.feed-Title', 'Заголовки новостей')
     popup_menu = Element(By.CSS_SELECTOR, '[templatename="Controls/menu:Popup"]', 'Меню')
 
 class Test(TestCaseUI):
@@ -42,7 +42,7 @@ class Test(TestCaseUI):
         self.browser.should_be(UrlContains('fix-online.sbis.ru'), TitleExact('Вход в личный кабинет'))
 
         log('Авторизация')
-        user_login, user_password = 'пчелкин', 'пчелкин123'
+        user_login, user_password = 'тест', 'тест123'
         auth = AuthOnline(self.driver)
         auth.login_inp.type_in(user_login+Keys.ENTER).should_be(ExactText(user_login))
         auth.password_inp.type_in(user_password+Keys.ENTER).should_be(Not(Visible))
