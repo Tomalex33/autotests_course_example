@@ -4,7 +4,6 @@
 # Убедиться, что сообщение появилось в реестре
 # Удалить это сообщение и убедиться, что удалили
 
-from selenium import webdriver
 from atf.ui import *
 from atf import log
 from selenium.webdriver.common.by import By
@@ -20,12 +19,18 @@ class AuthOnline(Region):
     login_inp = TextField(By.CSS_SELECTOR, '.controls-Field.js-controls-Field.controls-InputBase__nativeField.controls-InputBase__nativeField_caretFilled.controls-InputBase__nativeField_caretFilled_theme_default', 'логин')
     password_inp = TextField(By.CSS_SELECTOR, '.controls-Password__nativeField_caretFilled_theme_default', 'пароль')
 
+
 class MainOnline(Region):
     plus = Element(By.CSS_SELECTOR, '[data-name="sabyPage-addButton"]', 'Кнопка добавить')
     find = CustomList(By.CSS_SELECTOR, '.controls-Field.js-controls-Field.controls-InputBase__nativeField.controls-Search__nativeField_caretEmpty.controls-Search__nativeField_caretEmpty_theme_default.controls-InputBase__nativeField_hideCustomPlaceholder', 'поиск сообщений')
     personal_inf = Element(By.CSS_SELECTOR, '[data-qa="person-Information__fio"]', 'Найденный контакт')
     messege = Element(By.CSS_SELECTOR, '[data-qa="textEditor_slate_Field"]', 'Пишем сообщение')
     send_messege = Element(By.CSS_SELECTOR, '[data-qa="msg-send-editor__send-button"]', 'отправляем сообщение')
+    messege_in = Element(By.CSS_SELECTOR, '[data-qa="msg-dialogs-item__addressee"]', 'сообщение в реестре')
+    pmo_button = Element(By.CSS_SELECTOR, '[title="Отметить"]', 'кнопка ПМО')
+    check_box = Element(By.CSS_SELECTOR, '[data-qa="controls-CheckboxMarker"]', 'Чек-бокс')
+    delete_msg = Element(By.CSS_SELECTOR, '[data-qa="remove"]', 'удаление сообщения')
+
 class Test(TestCaseUI):
     def test(self):
         self.browser.open(sbis_site)
@@ -33,7 +38,7 @@ class Test(TestCaseUI):
         self.browser.should_be(UrlExact(sbis_site), TitleExact(sbis_title))
 
         log('Авторизация на сайте')
-        user_login, user_password = 'пчелкин', 'пчелкин123'
+        user_login, user_password = 'тест', 'тест'
         auth = AuthOnline(self.driver)
         auth.login_inp.type_in(user_login + Keys.ENTER).should_be(ExactText(user_login))
         auth.password_inp.type_in(user_password + Keys.ENTER).should_be(Not(Visible))
@@ -43,7 +48,7 @@ class Test(TestCaseUI):
         self.browser.should_be(UrlExact(contacts_url), TitleExact(contacts_title))
 
         log('Отправляем сообщение самому себе')
-        name = 'Пчелкин Алексей Павлович'
+        name = 'Тест Сверки'
         main = MainOnline(self.driver)
         main.plus.click()
         main.find.should_be(CountElements(2))
@@ -54,6 +59,12 @@ class Test(TestCaseUI):
         main.send_messege.click()
 
         log('Проверяем что сообщение есть в реестре')
+        main.messege_in.should_be(Attribute(title=name))
 
+        log('Удаляем сообщение')
+        main.pmo_button.click()
+        main.check_box.click()
+        main.delete_msg.click()
 
-
+        log('Проверяем что сообщение удалилось')
+        main.messege_in.should_be(Not(Visible))

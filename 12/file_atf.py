@@ -41,7 +41,7 @@ class Test(TestCaseUI):
         self.browser.should_be(UrlContains('fix-online.sbis.ru'), TitleExact('Вход в личный кабинет'))
 
         log('Авторизация')
-        user_login, user_password = 'пчелкин', 'пчелкин123'
+        user_login, user_password = 'тест', 'тест'
         auth = AuthOnline(self.driver)
         auth.login_inp.type_in(user_login+Keys.ENTER).should_be(ExactText(user_login))
         auth.password_inp.type_in(user_password+Keys.ENTER).should_be(Not(Visible))

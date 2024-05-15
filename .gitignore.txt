@@ -1,0 +1,4 @@
+*.log
+*.idea
+*.screenshots/*.jpg
+*js_errors/*.csv
