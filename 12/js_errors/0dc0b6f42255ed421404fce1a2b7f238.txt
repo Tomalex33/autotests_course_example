@@ -1,0 +1,11 @@
+16-05-2024 17:58:47.646000;https://fix-cdn.sbis.ru/static/resources/RequireJsLoader/config.min.js?x_module=6c8082308d3dd0dcccd8de5eece3b893 0:1071 TypeError: Failed to fetch
+    at n.get (https://fix-cdn.sbis.ru/static/resources/RequireJsLoader/online-superbundle.package.min.js?x_module=6c8082308d3dd0dcccd8de5eece3b893:9:1349)
+    at Object.load (https://fix-cdn.sbis.ru/static/resources/RequireJsLoader/online-superbundle.package.min.js?x_module=6c8082308d3dd0dcccd8de5eece3b893:7:1889)
+    at Object.load (https://fix-cdn.sbis.ru/static/resources/RequireJsLoader/online-superbundle.package.min.js?x_module=6c8082308d3dd0dcccd8de5eece3b893:12:271)
+    at e.<anonymous> (https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p9/require.min.js:1:13144)
+    at https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p9/require.min.js:1:1685
+    at S (https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p9/require.min.js:1:7475)
+    at e.callPlugin (https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p9/require.min.js:1:11690)
+    at e.fetch (https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p9/require.min.js:1:10231)
+    at e.check (https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p9/require.min.js:1:11601)
+    at e.enable (https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p9/require.min.js:1:13920)
