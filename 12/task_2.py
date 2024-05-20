@@ -25,10 +25,13 @@ class MainOnline(Region):
     task_in = Element(By.CSS_SELECTOR, '[data-qa="row"]:has([title="Входящие"])', 'Входящие задачи')
     marker = Element(By.CSS_SELECTOR, '.controls-ListView__itemV_marker.controls-ListView__itemV_marker_size_content-xs', 'маркер')
     task_out = Element(By.CSS_SELECTOR, '[title="Исходящие"]', 'Исходящие задачи')
-    task_list = Element(By.CSS_SELECTOR, '.edws-MainColumn__userName.ws-flex-shrink-0.ws-flex-grow-0.ws-ellipsis', 'Задача в папка')
+    task_list = Element(By.CSS_SELECTOR, '[title="Выполнение"]', 'Задача в папке')
     add_task = Element(By.CSS_SELECTOR, '[data-qa="sabyPage-addButton"]', 'Кнопка создания задачи')
     create_folder = Element(By.CSS_SELECTOR, '[data-target="menu_item_folderItem"]', 'Создаем папку')
-    name_folder = Element(By.CSS_SELECTOR, '.controls-InputBase__field.controls-InputBase__field_margin-null.controls-InputBase__field_theme_default_margin-null', 'Ввод текста')
+    name_folder = Element(By.CSS_SELECTOR, '.controls-Field.js-controls-Field.controls-InputBase__nativeField.controls-InputBase__nativeField_caretFilled.controls-InputBase__nativeField_caretFilled_theme_default.controls-InputBase__nativeField_hideCustomPlaceholder', 'Ввод текста')
+    save_button = Element(By.CSS_SELECTOR, '.controls-BaseButton__wrapper.controls-Button__wrapper_viewMode-outlined.controls-BaseButton__wrapper_captionPosition_end.controls-Button_textAlign-center.controls-Button__wrapper_mode-button', 'Сохраняем новую папку]')
+    new_folder = Element(By.CSS_SELECTOR, '[title="тест"]', 'Сохраняем новую папку]')
+
 
 class Test(TestCaseUI):
     def test(self):
@@ -37,7 +40,7 @@ class Test(TestCaseUI):
         self.browser.should_be(UrlExact(sbis_site), TitleExact(sbis_title))
 
         log('Авторизация на сайте')
-        user_login, user_password = 'пчелкин', 'пчелкин123'
+        user_login, user_password = '34к24', '54543'
         auth = AuthOnline(self.driver)
         auth.login_inp.type_in(user_login + Keys.ENTER).should_be(ExactText(user_login))
         auth.password_inp.type_in(user_password + Keys.ENTER).should_be(Not(Visible))
@@ -51,21 +54,23 @@ class Test(TestCaseUI):
         main = MainOnline(self.driver)
 
         log('Проверить, что выделена папка "Входящие" и стоит маркер')
-
-        main.task_in.element('[data-qa="marker"]').should_not_be(Visible)
-
+        main.task_in.element('[data-qa="marker"]').should_be(Displayed)
 
         log('Проверить, что папка не пустая (в реестре есть задачи)')
         main.task_list.should_be(Displayed)
 
         log('Перейти в другую папку, убедиться, что теперь она выделена, а со "Входящие" выделение снято')
         main.task_out.click()
+        main.task_in.element('[data-qa="marker"]').should_not_be(Displayed)
 
+        log('Создать новую папку и перейти в неё, Убедиться, что она пустая')
+        name_text_folder = 'тест'
+        main.add_task.click()
+        main.create_folder.click()
+        main.name_folder.click()
+        main.name_folder.type_in(name_text_folder+Keys.ENTER)
+        main.save_button.click()
+        main.new_folder.click()
+        main.task_list.should_not_be(Displayed)
 
-        # log('Создать новую папку и перейти в неё, Убедиться, что она пустая')
-        # name_folder = 'тест'
-        # main.add_task.click()
-        # main.create_folder.click()
-        # main.name_folder.click()
-        # main.name_folder.type_in(name_folder+Keys.ENTER)
-        # # main.task_list.should_not_be(Displayed)
+        log('Удалить новую папку, проверить, что её нет в списке папок')
