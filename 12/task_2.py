@@ -29,10 +29,11 @@ class MainOnline(Region):
     add_task = Element(By.CSS_SELECTOR, '[data-qa="sabyPage-addButton"]', 'Кнопка создания задачи')
     create_folder = Element(By.CSS_SELECTOR, '[data-target="menu_item_folderItem"]', 'Создаем папку')
     name_folder = Element(By.CSS_SELECTOR, '.controls-Field.js-controls-Field.controls-InputBase__nativeField.controls-InputBase__nativeField_caretFilled.controls-InputBase__nativeField_caretFilled_theme_default.controls-InputBase__nativeField_hideCustomPlaceholder', 'Ввод текста')
-    save_button = Element(By.CSS_SELECTOR, '.controls-BaseButton__wrapper.controls-Button__wrapper_viewMode-outlined.controls-BaseButton__wrapper_captionPosition_end.controls-Button_textAlign-center.controls-Button__wrapper_mode-button', 'Сохраняем новую папку]')
-    new_folder = Element(By.CSS_SELECTOR, '[title="тест"]', 'Сохраняем новую папку]')
-
-
+    save_button = Element(By.CSS_SELECTOR, '.controls-BaseButton__wrapper.controls-Button__wrapper_viewMode-outlined.controls-BaseButton__wrapper_captionPosition_end.controls-Button_textAlign-center.controls-Button__wrapper_mode-button', 'Сохраняем новую папку')
+    row_expander = Element(By.CSS_SELECTOR, '[data-qa="row-expander"]', 'Раскрывающийся список')
+    new_folder = Element(By.CSS_SELECTOR, '[title="тест"]', 'Создаем подпапку')
+    delete_new_folder = Element(By.CSS_SELECTOR, '[title="Удалить папку"]', 'Удаляем папку')
+    accepte_delete = Element(By.CSS_SELECTOR, '[data-qa="controls-ConfirmationDialog__button-true"]', 'Удаляем папку')
 class Test(TestCaseUI):
     def test(self):
         self.browser.open(sbis_site)
@@ -40,8 +41,9 @@ class Test(TestCaseUI):
         self.browser.should_be(UrlExact(sbis_site), TitleExact(sbis_title))
 
         log('Авторизация на сайте')
-        user_login, user_password = '34к24', '54543'
+        user_login, user_password = 'пчелкин', 'пчелкин123'
         auth = AuthOnline(self.driver)
+        auth.login_inp.click()
         auth.login_inp.type_in(user_login + Keys.ENTER).should_be(ExactText(user_login))
         auth.password_inp.type_in(user_password + Keys.ENTER).should_be(Not(Visible))
 
@@ -74,3 +76,7 @@ class Test(TestCaseUI):
         main.task_list.should_not_be(Displayed)
 
         log('Удалить новую папку, проверить, что её нет в списке папок')
+        main.new_folder.mouse_over()
+        main.new_folder.context_click()
+        main.delete_new_folder.click()
+        main.accepte_delete.click()
