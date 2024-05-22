@@ -33,7 +33,7 @@ class MainOnline(Region):
     row_expander = Element(By.CSS_SELECTOR, '[data-qa="row-expander"]', 'Раскрывающийся список')
     new_folder = Element(By.CSS_SELECTOR, '[title="тест"]', 'Создаем подпапку')
     delete_new_folder = Element(By.CSS_SELECTOR, '[title="Удалить папку"]', 'Удаляем папку')
-    accepte_delete = Element(By.CSS_SELECTOR, '[data-qa="controls-ConfirmationDialog__button-true"]', 'Удаляем папку')
+    accepte_delete = Element(By.CSS_SELECTOR, '[data-qa="controls-ConfirmationDialog__button-true"]', 'Потверждаем удаление')
 class Test(TestCaseUI):
     def test(self):
         self.browser.open(sbis_site)
@@ -80,3 +80,6 @@ class Test(TestCaseUI):
         main.new_folder.context_click()
         main.delete_new_folder.click()
         main.accepte_delete.click()
+        main.task_out.element('[title="тест"]').should_not_be(Displayed)
+        main.task_out.should_be(Attribute(title='Исходящие'))
+

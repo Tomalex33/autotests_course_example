@@ -1,0 +1,16 @@
+22-05-2024 17:47:15.718000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            feature-ctrl.toggleclearcache" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at n.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:40621)
+    at p.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:78879)
+    at p.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:78101)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:76548)"
+22-05-2024 17:47:15.718000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            staff.on_cnange_mode_photo" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at n.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:40621)
+    at p.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:78879)
+    at p.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:78101)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:76548)"
