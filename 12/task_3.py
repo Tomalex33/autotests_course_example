@@ -24,8 +24,10 @@ class AuthOnline(Region):
 
 class Task(Region):
     task_date = CustomList(By.CSS_SELECTOR, '.controls-EditableArea__Text__inner', 'Дата задания')
-    task_number = Element(By.CSS_SELECTOR, '[title="5"]', 'Номер задания')
-
+    task_number = Element(By.CSS_SELECTOR, '[data-qa="edo3-Document_docNumber"]', 'Номер задания')
+    task_performer = Element(By.CSS_SELECTOR, '.edws-StaffChooser__itemTpl-name', 'Исполнитель задачи')
+    task_author = Element(By.CSS_SELECTOR, '[data-qa="edo3-Sticker__mainInfo"]', 'Автор задачи')
+    task_description = Element(By.CSS_SELECTOR, '[name="editorWrapper"]', 'Описание задачи')
 
 class Test(TestCaseUI):
     def test(self):
@@ -45,7 +47,13 @@ class Test(TestCaseUI):
 
         main = Task(self.driver)
 
-        assert_that(lambda: main.task_number.get_attribute('title'), equal_to('5'), 'не верный номер', and_wait())
-        assert_that(lambda: main.task_date.item(1).text, equal_to('16 мая, чт'), 'не верная дата', and_wait())
+        log('Убедитесь, что в заголовке вкладки отображается "Задача №НОМЕР от ДАТА"')
+        main.task_date.should_be(Displayed)
+        main.task_number.should_be(Displayed)
 
-
+        log('Проверьте, что поля: Исполнитель, дата, номер, описание и автор отображаются с эталонными значениями')
+        assert_that(lambda: main.task_number.get_attribute('title'), equal_to('5'), 'не верный номер задачи', and_wait())
+        assert_that(lambda: main.task_date.item(1).text, equal_to('16 мая, чт'), 'не верная дата задачи', and_wait())
+        assert_that(lambda: main.task_performer.text, equal_to('Пчелкин А.П.'), 'не верный исполнитель задачи', and_wait())
+        assert_that(lambda: main.task_author.get_attribute('title'), equal_to('Пчелкин А.П.'), 'не верный автор задачи', and_wait())
+        assert_that(lambda: main.task_description.text, equal_to('ewq'), 'не верное описание задачи', and_wait())
