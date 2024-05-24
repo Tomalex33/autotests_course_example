@@ -1,3 +1,3 @@
-[general]
+[GENERAL]
 BROWSER = chrome
 ELEMENT_OUTPUT_LOG = user_friendly
