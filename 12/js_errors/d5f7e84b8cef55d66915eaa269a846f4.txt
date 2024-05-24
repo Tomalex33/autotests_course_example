@@ -1,0 +1,501 @@
+23-05-2024 12:15:12.943000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            feature-ctrl.toggleclearcache" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at n.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:40621)
+    at p.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:78879)
+    at p.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:78101)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:76548)"
+23-05-2024 12:15:12.943000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            staff.on_cnange_mode_photo" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at n.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:40621)
+    at p.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:78879)
+    at p.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:78101)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:76548)"
+23-05-2024 12:15:12.958000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            feature-ctrl.toggleclearcache" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.958000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onsendmessage" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.958000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onsendmessagefail" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.958000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onaftersendmessage" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.958000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onnewmessage" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.958000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangemessage" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.958000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletetheme" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.958000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onmovetheme" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.958000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onmovecontact" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.959000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onmovecontactgroup" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.959000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangecontactgroup" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.959000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangefolder" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.959000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangechat" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.959000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletechat" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.959000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onadddeletetochat" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.959000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onnewfileversion" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.959000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onsendready" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.959000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onfilesprocessed" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.959000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onnewinvitefavoritecontacts" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.959000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onnewfavoritecontacts" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.959000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onrejectfavoritecontacts" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangethemes" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangetheme" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletecontacts" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.oncreatecontacts" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onmovecontacts" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onlockchat" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onthemetransform" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onfilessign" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onsignfileinfoready" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.chats.onfavorite" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onsetsettings" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onmessagesetsubtheme" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onrestoretheme" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.960000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onviewdialogs" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onselecteddialogschange" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangecontacts" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletecontactsmass" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.oneditcontacts" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.taglistchange" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.tagupdate" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.tagmarkchanged" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.tagmarkchangedfail" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangedocument" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onwakeup" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.channel.status" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.tabfilterschanged" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.961000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onpinmessage" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ontypingmessage" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onupdatefiledata" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.oncreatedraftmessage" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangechannelconnection" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.oncreatesignature" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangesignature" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletesignature" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.themedocument" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onpinfile" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onunpinfile" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onpinlink" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletefile" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.962000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onunpinlink" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.963000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onlinkattached" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.963000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onlinkdeleted" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.963000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.oncreatefilefolder" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.963000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletefilefolder" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.963000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onupdatefilefolder" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.963000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onlinkfilefolder" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:12.963000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            staff.on_cnange_mode_photo" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.305000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            calendar.update" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.306000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            calendar.update.mass" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.306000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            edo.task-added" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.306000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            edo.task-update" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.306000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            edo.task-delete" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.306000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            edo.task-executed" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.306000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            edo.deletedocumentsonclient" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.306000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            task_timer.state_changed" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.306000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            telephony.callhistoryrefreshed" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.306000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            lastactivity.userstatus" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.309000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            notificationcenter.notice" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.309000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            videocall.common" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.309000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            notification.webinar.start" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.310000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            notification.videoconf.start" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.310000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            telephony.call.incoming" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.310000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            telephony.call.end" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.310000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            tender.start_auction_notification" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.310000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            cloud.noticeaboutupdate" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.310000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            cloud.reloadstatic" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.310000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            versionmanager.updatestaticcomplete" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.310000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            users.userlocking" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.310000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            online.update_doc_tape" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.310000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            edo.documentstatechanged:3342" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.310000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            edo.documentsgenerated:3342" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.311000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            edo.documentposting:3342" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.311000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            meeting.onnextphase" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.311000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            informers.informerchanged" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.311000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            informers.counterchanged" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
+23-05-2024 12:15:13.311000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8 5:59655 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            lrs.event_informer" "Error
+    at g.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:59777)
+    at b.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:69344)
+    at BroadcastChannel.\u003Canonymous> (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=32706daa2f927c9a396b0809a140fda8:6:68801)"
