@@ -40,18 +40,18 @@ class Test01(TestCaseUI):
         task = OpenContexMenu(self.driver)
         task.tasks.mouse_over()
         task.tasks.element('.icon-SettingsNew')
-        # task.tasks.open_context_menu()
 
-        # new_task = ControlsTreeGridView()
-        # new_task.row(1).select_menu_actions('.controls-Menu__row')
-        #
-        #
-        # task.tasks.element('.icon-SettingsNew').click()
-
-        # task_item = self.tasks.item(contains_text=task)
-        # task_item.mouse_over()
-        # task_item.element(self.setting_css).click()
-        # self.setting.item(contains_text=setting).click()
-
-# ".controls-BaseControl_showActions.controls-BaseControl_showActions_onhover"
-# " "
+# class Test02(Region):
+#     """Реестр Задачи"""
+#
+#     tasks = CustomList(By.CSS_SELECTOR, '.controls-MasterDetail_details .controls-Grid__row', 'Задачи')
+#     settings = CustomList(By.CSS_SELECTOR, '.controls-Menu__row', 'Опции')
+#     settings_css = '.icon-SettingsNew'
+#
+#     def select_setting(self, task: str, setting: str):
+#         """Выбор операции над записью"""
+#
+#         task_item = self.tasks.item(contains_text=task)
+#         task_item.mouse_over()
+#         task_item.element(self.settings_css).click()
+#         self.settings.item(contains_text=setting).click()
