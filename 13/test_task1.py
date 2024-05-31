@@ -26,6 +26,10 @@ class Side(Region):
     side_menu = NavigationPanelsAccordionView()
 
 
+"""тут править селектор"""
+class TaskList(Region):
+    task_list = ControlsTreeGridView()
+
 class Test(TestCaseUI):
     def test(self):
         self.browser.open(sbis_site)
@@ -44,8 +48,17 @@ class Test(TestCaseUI):
         task.task_page.collapse()
         task.task_page.expand()
 
+        log('Переход через аккордеон в раздел "Задачи"')
         acc = Side(self.driver)
-        acc.side_menu.item(contains_text='Задачи').click()
+        acc.side_menu.item(contains_text='Задачи').double_click()
+
+        log('Переход через аккордеон в раздел "Задачи"')
+
+        list_task = TaskList(self.driver)
+
+        """тут править"""
+        list_task.task_list.row(row_number=1).double_click()
+
 
 
 
