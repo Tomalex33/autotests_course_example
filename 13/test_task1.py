@@ -26,9 +26,9 @@ class Side(Region):
     side_menu = NavigationPanelsAccordionView()
 
 
-"""тут править селектор"""
 class TaskList(Region):
-    task_list = ControlsTreeGridView()
+    task_list = ControlsTreeGridView(By.CSS_SELECTOR, '.brTasksOnMe .controls-Grid', 'Выбор задания')
+    Popup = ControlsPopup()
 
 class Test(TestCaseUI):
     def test(self):
@@ -44,20 +44,24 @@ class Test(TestCaseUI):
         auth.login_inp.type_in(user_login + Keys.ENTER).should_be(ExactText(user_login))
         auth.password_inp.type_in(user_password + Keys.ENTER).should_be(Not(Visible))
 
-        task = Task(self.driver)
-        task.task_page.collapse()
-        task.task_page.expand()
+        # task = Task(self.driver)
+        # task.task_page.collapse()
+        # task.task_page.expand()
 
         log('Переход через аккордеон в раздел "Задачи"')
         acc = Side(self.driver)
         acc.side_menu.item(contains_text='Задачи').double_click()
 
-        log('Переход через аккордеон в раздел "Задачи"')
+        log('Перемещаем задачу из папки в папку')
 
         list_task = TaskList(self.driver)
 
-        """тут править"""
-        list_task.task_list.row(row_number=1).double_click()
+        # list_task.task_list.find_cell_by_column_number('ewq', 1).click()
+        list_task.task_list.item(contains_text='ewq').select_menu_actions('Переместить', exact=True)
+
+        # list_task.task_list.check_columns_number(1)
+        list_task.Popup._get_item('Переместить')
+        list_task.Popup.close()
 
 
 
