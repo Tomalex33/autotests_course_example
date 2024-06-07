@@ -27,12 +27,15 @@ class Side(Region):
 
 
 class TaskList(Region):
-    task_list = ControlsTreeGridView(By.CSS_SELECTOR, '.brTasksOnMe .controls-Grid', 'Выбор задания')
-    Popup = ControlsPopup()
+    task_list = ControlsTreeGridView(By.CSS_SELECTOR, '.brTasksOnMe .controls-Grid', 'Выбор задачи из списка задач')
+    popup = ControlsTreeGridView(By.CSS_SELECTOR, '.controls-MoveDialog__explorer', 'Перенос в папку из popup меню')
+    folders = ControlsTreeGridView(By.CSS_SELECTOR, '.controls-FilterViewPanel_viewMode-default-vertical.controls-FilterViewPanel-transparent .controls-Grid', 'Выбор папки')
+    number = ControlsTreeGridView(By.CSS_SELECTOR, '.controls-Grid .controls-DecoratorNumber', 'Счетчик задач')
 
 class Test(TestCaseUI):
     def test(self):
         self.browser.open(sbis_site)
+
         log('Проверить адрес сайта и заголовок страницы')
         self.browser.should_be(UrlExact(sbis_site), TitleExact(sbis_title))
 
@@ -44,26 +47,24 @@ class Test(TestCaseUI):
         auth.login_inp.type_in(user_login + Keys.ENTER).should_be(ExactText(user_login))
         auth.password_inp.type_in(user_password + Keys.ENTER).should_be(Not(Visible))
 
-        # task = Task(self.driver)
-        # task.task_page.collapse()
-        # task.task_page.expand()
-
         log('Переход через аккордеон в раздел "Задачи"')
         acc = Side(self.driver)
-        acc.side_menu.item(contains_text='Задачи').double_click()
+        acc.side_menu.item(contains_text='Задачи').click()
+        delay(1)
+        acc.side_menu.item(contains_text='Задачи').click()
 
-        log('Перемещаем задачу из папки в папку')
-
+        log('Перемещаем задачу в папку Исходящие')
         list_task = TaskList(self.driver)
+        list_task.task_list.item(contains_text='ewq').select_menu_actions('Переместить')
+        list_task.popup.item(contains_text='Исходящие').click()
+        delay(1)
 
-        # list_task.task_list.find_cell_by_column_number('ewq', 1).click()
-        list_task.task_list.item(contains_text='ewq').select_menu_actions('Переместить', exact=True)
-
-        # list_task.task_list.check_columns_number(1)
-        list_task.Popup._get_item('Переместить')
-        list_task.Popup.close()
-
-
-
+        log('Переходим в папку исходящие и проверяем что задача перенеслась')
+        list_task.folders.item(contains_text='Исходящие').click()
+        list_task.task_list.should_be(ContainsText('ewq'))
+        list_task.task_list.check_rows_number(2)
 
 
+        log('Перемещаем обратно в папку входящие')
+        list_task.task_list.item(contains_text='ewq').select_menu_actions('Переместить')
+        list_task.popup.item(contains_text='Входящие').click()
