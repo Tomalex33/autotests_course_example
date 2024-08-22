@@ -36,8 +36,8 @@
 
 # Четвертое задание.
 
-# path = 'C:\\Users\\ap.tomchik\Downloads\\todolist.txt'
-# print(path[30:38])
+path = r'C:\Users\ap.tomchik\Downloads\todolist.txt'
+print(path[path.rfind('\\') + 1:path.rfind('.')])
 
 # Пятое задание.
 
@@ -63,14 +63,14 @@
 
 # Седьмое задание.
 
-first_string = 'tgh'
-second_string = 'qfertyuiopasdwghjklzxcvbnm'
-
-first_letter = second_string.find(first_string[0])
-second_letter = second_string.find(first_string[1])
-third_letter = second_string.find(first_string[2])
-
-start = min(first_letter, second_letter, third_letter)
-end = max(first_letter, second_letter, third_letter)
-
-print(second_string[start:end+1])
+# first_string = 'tgh'
+# second_string = 'qfertyuiopasdwghjklzxcvbnm'
+#
+# first_letter = second_string.find(first_string[0])
+# second_letter = second_string.find(first_string[1])
+# third_letter = second_string.find(first_string[2])
+#
+# start = min(first_letter, second_letter, third_letter)
+# end = max(first_letter, second_letter, third_letter)
+#
+# print(second_string[start:end+1])
