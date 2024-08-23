@@ -1,17 +1,17 @@
 # Первое задание.
 
 # from math import sqrt
-# a = 4                                            # Значение стороны квадрата
-# perimeter_square = a * 4                         # Значение периметра квадрата
-# area_square = a * a                              # Значение площади квадрата
-# diagonal_square = sqrt((a**2)+(a**2))            # Значение диагонали квадрата
+# # a = 4                                                    # Значение стороны квадрата
+# # perimeter_square = a * 4                                 # Значение периметра квадрата
+# # area_square = a * a                                      # Значение площади квадрата
+# # diagonal_square = round(sqrt((a**2)+(a**2)), 2)          # Значение диагонали квадрата
+# #
+# # print(f'Периметр квадрата = {perimeter_square}')
+# # print(f'Площадь квадрата = {area_square}')
+# # print(f'Диагональ квадрата = {diagonal_square}')
 #
-# print(f'Периметр квадрата = {perimeter_square}')
-# print(f'Площадь квадрата = {area_square}')
-# print(f'Диагональ квадрата = {diagonal_square}')
-
-# Второе задание.
-
+# # Второе задание.
+#
 # a = 1
 # b = 12
 # c = 9
@@ -36,8 +36,8 @@
 
 # Четвертое задание.
 
-path = r'C:\Users\ap.tomchik\Downloads\todolist.txt'
-print(path[path.rfind('\\') + 1:path.rfind('.')])
+# path = r'C:\Users\ap.tomchik\Downloads\todolist.txt'
+# print(path[path.rfind('\\') + 1:path.rfind('.')])
 
 # Пятое задание.
 
@@ -48,8 +48,8 @@ print(path[path.rfind('\\') + 1:path.rfind('.')])
 #
 # a = 4
 # b = 2
-# c = a * b
-# print(f'{a} * {b} = {c}')
+# d = a * b
+# print(f'{a} * {b} = {d}')
 
 # Шестое задание.
 
@@ -60,17 +60,27 @@ print(path[path.rfind('\\') + 1:path.rfind('.')])
 #         result += text[i]
 #
 # print(result)
+#
+# # или
+#
+# str1 = 'Привед медвед?'
+# dele = str1[2::2]
+# print(dele)
+
 
 # Седьмое задание.
 
-# first_string = 'tgh'
-# second_string = 'qfertyuiopasdwghjklzxcvbnm'
-#
+# first_string = 'ert'
+# second_string = 'qwteuirjk'
 # first_letter = second_string.find(first_string[0])
 # second_letter = second_string.find(first_string[1])
 # third_letter = second_string.find(first_string[2])
-#
 # start = min(first_letter, second_letter, third_letter)
 # end = max(first_letter, second_letter, third_letter)
-#
 # print(second_string[start:end+1])
+
+
+
+
+
+
